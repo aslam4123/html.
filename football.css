@@ -1,0 +1,19 @@
+@keyframes football{
+    from{
+        transform: translate(0px);
+
+    }
+    to{
+        transform: translate(0px,300px);
+    }
+}
+.main{
+    height: 50px;
+    width: 50px;
+    animation-name: football;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

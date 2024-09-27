@@ -1,0 +1,14 @@
+.main{
+    padding: 50px;
+    margin-left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.main:hover{
+    /* transform: translate(300px); */
+    transition: 2s ease;
+    /* transform: scale(1.5) */
+    /* transform: rotate(360deg) */
+    transform: skew(30deg)
+}
